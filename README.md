@@ -1,5 +1,12 @@
 # Membership Portal
 
+The tech stack for this is
+* Themeforest Template 
+* Express.js on Node.js
+* Express-Handlebars
+* Redis
+* Postgresql
+
 ## How to set up for development
 ### Clone the repo
 1. at a terminal make a folder or go to a folder where you keep development projects. 
