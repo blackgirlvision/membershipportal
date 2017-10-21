@@ -26,4 +26,8 @@
   * then type psql -d bgv -f db/dbSetup.sql
 4. The previous command should make a table in your database called users.
 
-###
+### Set up Redis
+This is useful for storing session data and caching data. 
+1. Mac users can download Redis <a href="https://redis.io/download">here</a>. After you have downloaded it, cd into the unzipped directory and type make to build it.
+2. Ubuntu users should be able to type sudo apt-get install redis-server to download and install.
+3. Windows users are out of luck! Redis does not work on your OS. However, there is a <a href="https://github.com/MicrosoftArchive/redis">Windows</a> port of Redis
